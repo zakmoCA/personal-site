@@ -8,6 +8,19 @@ import Island from '../models/Island'
   POPUP
 </div> */}
 const Home = () => {
+  const adjustIslandForScreenSize = () => {
+    let screenScale = null
+    let screenPosition 
+
+    if (window.innerWidth < 768) {
+      screenScale = [0.9, 0.9, 0.9]
+      screenPosition = [0, -6.5, -43]
+    } else {
+      screenScale = [1, 1, 1]
+      screenPosition = [0, -6.5, -43]
+    }
+  }
+
   return (
     <section className="w-full h-screen relative">
       <Canvas 
