@@ -13,8 +13,29 @@ const Bird = () => {
     actions['Take 001'].play()
   }, [])
 
-  useFrame((_, delta) => {
-    birdRef.current.rotation.y += 0.15 * delta
+  useFrame(({ clock, camera }) => {
+    // update y Y position to simulate sine-wave motion which is bird-like
+    birdRef.current.position.y = Math.sin(clock.elapsedTime) * 0.2 + 2
+
+    // peep if birds reached certain endpoint relative to the camera
+    if (birdRef.current.position.x > camera.position.x + 10) {
+      // change direction to backward and rotate the bird 180deg on the y-axis
+      birdRef.current.rotation.y = Math.PI
+    } else if (birdRef.current.position.x < camera.position.x - 10) {
+      // change direction to forward and reset bird rotation
+      birdRef.current.rotation.y = 0
+    }
+
+    // update x and z positions based on the direction
+    if (birdRef.current.rotation.y === 0) {
+      // moving forward
+      birdRef.current.position.x += 0.01
+      birdRef.current.position.z -= 0.01
+    } else {
+      // moving backward
+      birdRef.current.position.x -= 0.01
+      birdRef.current.position.z += 0.01
+    }
   })
 
   return (
