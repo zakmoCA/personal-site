@@ -25,7 +25,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     setIsLoading(true)
-    setCurrentAnimation('run')
+    setCurrentAnimation('hit')
 
     const email = import.meta.env.VITE_APP_MY_EMAIL
 
@@ -43,21 +43,19 @@ const Contact = () => {
       // },
       import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
     ).then(() => {
-      setIsLoading(false)
-      showAlert({ show: true, text: 'Your message was sent successfully.', type: 'success' })
+        setIsLoading(false)
+        showAlert({ show: true, text: 'Your message was sent successfully.', type: 'success' })
 
-      setTimeout(() => {
-        hideAlert()
+        setTimeout(() => {
+          hideAlert(false)
 
-        setCurrentAnimation('idle')
-        setForm({ name: '', email: '', message: '' })
+          setCurrentAnimation('idle')
+          setForm({ name: '', email: '', message: '' })
       }, [3000])
-
-      setForm({ name: '', email: '', message: '' })
     }).catch((error) => {
       setIsLoading(false)
+      console.error(error)
       setCurrentAnimation('idle')
-      console.log(error)
       showAlert({ show: true, text: "I didn't receive your message.", type: 'danger' })
     })
   }
@@ -65,7 +63,6 @@ const Contact = () => {
   return (
     <section className="relative-flex lg:flex-row flex-col max-container">
       {alert.show && <Alert {...alert} />}
-      <Alert />
       <div className="flex-1 min-w-[50%] flex flex-col">
         <h1 className="head-text">Get in Touch</h1>
 
@@ -122,7 +119,6 @@ const Contact = () => {
             disabled={isLoading}
             onFocus={handleFocus}
             onBlur={handleBlur}
-            onSubmit={handleSubmit}
           >
             {isLoading ? 'Sending...' : 'Send message'}
           </button>
