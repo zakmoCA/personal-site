@@ -50,12 +50,33 @@ const About = () => {
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
+                contentStyle={{
+                  borderBottom: '8px',
+                  borderStyle: 'solid',
+                  borderBottomColor: '#44a8b3',
+                  boxShadow: 'none',
+                }}
               >
                 <div>
-                  <h3>
+                  <h3 className="text-black text-xl font-poppins font-semibold">
                     {experience.title}
                   </h3>
+                  <p className="text-black-500 font-medium font-base"
+                  style={{margin:0}}>
+                    {experience.company_name}
+                  </p>
                 </div>
+
+                <ul className="my-5 list-disc ml-5 space-y-2">
+                  {experience.points.map((point, index) => (
+                    <li 
+                      key={`experience-point-${index}`}
+                      className="text-black-500/50 font-normal pl-1 text-sm"
+                    >
+                      {point}
+                    </li>
+                  ))}
+                </ul>
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>

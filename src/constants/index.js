@@ -74,23 +74,43 @@ export const skills = [
 
 export const experiences = [
   {
-      title: "",
-      company_name: "",
-      date: "",
+      title: "Lorem ipsum dolor",
+      company_name: "Lorem ipsum dolor",
+      date: "xx/xx/xx - xx/xx/xx",
       points: [
-          "........",
-          "........",
-          "........",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
       ],
   },
   {
-      title: "",
-      company_name: "",
-      date: "",
+      title: "Lorem ipsum dolor",
+      company_name: "Lorem ipsum dolor",
+      date: "xx/xx/xx - xx/xx/xx",
       points: [
-          "........",
-          "........",
-          "........",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+      ],
+  },
+  {
+      title: "Lorem ipsum dolor",
+      company_name: "Lorem ipsum dolor",
+      date: "xx/xx/xx - xx/xx/xx",
+      points: [
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+      ],
+  },
+  {
+      title: "Lorem ipsum dolor",
+      company_name: "Lorem ipsum dolor",
+      date: "xx/xx/xx - xx/xx/xx",
+      points: [
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
+          "Lorem ipsum dolor",
       ],
   }
 ]
