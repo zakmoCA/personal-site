@@ -71,3 +71,26 @@ export const skills = [
     type: "Frontend",
   }
 ]
+
+export const experiences = [
+  {
+      title: "",
+      company_name: "",
+      date: "",
+      points: [
+          "........",
+          "........",
+          "........",
+      ],
+  },
+  {
+      title: "",
+      company_name: "",
+      date: "",
+      points: [
+          "........",
+          "........",
+          "........",
+      ],
+  }
+]
