@@ -114,3 +114,24 @@ export const experiences = [
       ],
   }
 ]
+
+export const projects = [
+  {
+      theme: 'btn-back-red',
+      name: 'Lorem ipsum dolor sit amet',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+      link: '',
+  },
+  {
+      theme: 'btn-back-red',
+      name: 'Lorem ipsum dolor sit amet',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+      link: '',
+  },
+  {
+      theme: 'btn-back-red',
+      name: 'Lorem ipsum dolor sit amet',
+      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
+      link: '',
+  }
+]
