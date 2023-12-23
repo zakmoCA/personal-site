@@ -118,20 +118,26 @@ export const experiences = [
 export const projects = [
   {
       theme: 'btn-back-red',
-      name: 'Lorem ipsum dolor sit amet',
+      name: 'CML Pomodoro Timer',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-      link: '',
+      link: 'https://github.com/zakmoCA/Command-line-Pomodoro-Timer',
   },
   {
       theme: 'btn-back-red',
-      name: 'Lorem ipsum dolor sit amet',
+      name: 'Book Exchange API',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-      link: '',
+      link: 'https://github.com/zakmoCA/Book-Exchange-API',
   },
   {
       theme: 'btn-back-red',
-      name: 'Lorem ipsum dolor sit amet',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
-      link: '',
+      name: 'codebuddy',
+      description: 'In progress',
+      link: 'https://github.com/zakmoCA/codebuddy',
+  },
+  {
+      theme: 'btn-back-red',
+      name: 'custom interpreter',
+      description: 'In progress',
+      link: 'https://github.com/zakmoCA/custom-language-and-intepreter',
   }
 ]
