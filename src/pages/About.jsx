@@ -34,22 +34,7 @@ const About = () => {
           I have focused on learning Programming/CS fundamentals above all else, and am a fast learner who 
           can quickly adapt to a tech-stack that I am unfamiliar with. <br /> <br />
 
-          Outside of programming, I enjoy running, reading, writing, and creating content! Beyond family
-          and spiritual obligations, I currently have two main goals for the coming decade:
-          <br /> <br />
-          <ol>
-            <li>1. Become a cracking developer</li>
-            <li>2. Run the <a 
-              href="https://www.destinationtrailrun.com/moab" 
-              target="_blank"
-              className="underline"
-              >
-              Moab 240
-            </a>, a 240-mile ultramarathon in the deserts and canyons of Moab, Utah! </li>
-
-          </ol>
-          
-          
+          Outside of programming, I enjoy running, reading, writing, and creating content! 
         </p>
       </div>
       <div className="py-10 flex flex-col ">
