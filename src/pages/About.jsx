@@ -15,24 +15,14 @@ const About = () => {
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
           Hello! I'm Zak, a full-stack developer with a background 
-          in healthcare (Respiratory Science). My journey into programming began recently as a curiosity, 
-          and it is quickly evolving into an intense compulsion that has driven me to pursue a career as a 
-          developer. <br/> <br /> 
+          in healthcare.<br/> <br /> 
           
           To develop my skills, I enrolled in Coder Academy which was a great experience.
           As a Software Developer based in Brisbane, I specialise in writing responsive,
           robust full stack applications, and have experience in React/TypeScript, 
           Ruby on Rails, and Python. <br /> <br />
-          
-          Since my course I have gained experience as a Technical Support Engineer at a premier Brisbane
-          SaaS company, Tanda, which I had to take leave of due to illness at the end of 2023 unfortunately.
-          <br /> <br />
 
-          I'm currently back in the job market as I am recovering to full strength, and am particularly 
-          interested in Junior Full-Stack Developer positions. My working language/stack is JavaScript/TypeScript, and 
-          React as a front-end library, with a Node.js runtime. However, I am fairly language agnostic as 
-          I have focused on learning Programming/CS fundamentals above all else, and am a fast learner who 
-          can quickly adapt to a tech-stack that I am unfamiliar with. <br /> <br />
+          <br /> <br />
 
           Outside of programming, I enjoy running, reading, writing, and creating content! 
         </p>
