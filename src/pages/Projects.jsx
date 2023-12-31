@@ -60,6 +60,8 @@ const Projects = () => {
                   />
                 </div>
                 <div>
+                {
+                  /*
                   <Link
                     to={project.link}
                     target="_blank"
@@ -68,6 +70,8 @@ const Projects = () => {
                   >
                     Download Project
                   </Link>
+                  */
+                }
                 </div>
               </div>
             </div>
