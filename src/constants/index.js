@@ -1,3 +1,5 @@
+import { exchange, timer, underConstruction } from '../assets/images'
+
 import {
   contact,
   css,
@@ -119,30 +121,35 @@ export const projects = [
   {
       theme: 'btn-back-red',
       name: 'Portfolio site',
+      iconUrl: underConstruction,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
       link: 'https://github.com/zakmoCA/zak',
   },
   {
       theme: 'btn-back-red',
       name: 'CML Pomodoro Timer',
+      iconUrl: timer,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
       link: 'https://github.com/zakmoCA/Command-line-Pomodoro-Timer',
   },
   {
       theme: 'btn-back-red',
       name: 'Book Exchange API',
+      iconUrl: exchange,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod',
       link: 'https://github.com/zakmoCA/Book-Exchange-API',
   },
   {
       theme: 'btn-back-red',
       name: 'codebuddy',
+      iconUrl: underConstruction,
       description: 'In progress',
       link: 'https://github.com/zakmoCA/codebuddy',
   },
   {
       theme: 'btn-back-red',
       name: 'custom interpreter',
+      iconUrl: underConstruction,
       description: 'In progress',
       link: 'https://github.com/zakmoCA/custom-language-and-intepreter',
   }
