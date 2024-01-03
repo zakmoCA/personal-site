@@ -10,7 +10,8 @@ const HomeInfo = ({ currentStage }) => {
         <span className='font-semibold mx-2 text-white'>Zak</span>
         👋
         <br />
-        A Software Developer from Brisbane.
+        A Software Developer from Brisbane. <br /><br />
+        Drag the island to learn more! 👉
       </h1>
     )
 

@@ -20,9 +20,9 @@ const About = () => {
           To develop my skills, I enrolled in Coder Academy which was a great experience.
           As a Software Developer based in Brisbane, I specialise in writing responsive,
           robust full stack applications, and have experience in React/TypeScript, 
-          Ruby on Rails, and Python. <br /> <br />
+          Ruby on Rails, and Python. <br /> <br /> <br />
 
-          <br /> <br />
+         
 
           Outside of programming, I enjoy running, reading, writing, and creating content! 
         </p>

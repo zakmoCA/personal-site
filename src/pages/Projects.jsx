@@ -12,10 +12,8 @@ const Projects = () => {
       </h1>
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
-          consequat.
+          Below are some projects I completed in my web-development bootcamp, 
+          and others I have embarked on since then, and am building!
         </p>
       </div>
 
