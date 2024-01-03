@@ -79,6 +79,7 @@ export const experiences = [
       title: "Technical Support Engineer",
       company_name: "Tanda",
       date: "July 2023 - November 2023",
+      iconBg: "#fbc3bc",
       points: [
           "Collaborated closely with clients to comprehensively grasp and troubleshoot technical issues within the platform, ensuring a deep understanding of their concerns and a prompt resolution.",
           "Diagnosed, documented, and successfully resolved bugs within the production codebase, demonstrating a keen eye for detail and a systematic approach to problem-solving.",
@@ -91,6 +92,7 @@ export const experiences = [
       title: "Respiratory Scientist",
       company_name: "Greenslopes Lung Function",
       date: "January 2020 - November 2022",
+      iconBg: "#b7e4c7",
       points: [
         "Led and conducted comprehensive Pulmonary Function Tests, ensuring accurate testing, interpretation, and analysis.",
         "Ensured the highest standards of laboratory cleanliness, equipment maintenance, and infection control to uphold a safe, efficient, and well-functioning work environment.",
@@ -103,6 +105,7 @@ export const experiences = [
       title: "Sleep Scientist",
       company_name: "Metro North Health",
       date: "August 2021 - July 2022",
+      iconBg: "#a2d2ff",
       points: [
         "Performed accurate and timely Polysomnography, contributing to the diagnosis, study, and treatment of sleep disorders.",
         "Conducted meticulous analysis and reporting of Sleep Studies, delivering precise and comprehensive information to aid physicians in treatment planning.",

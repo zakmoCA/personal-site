@@ -50,7 +50,13 @@ const About = () => {
         <h3 className="subhead-text">Work Experience</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            .......
+            My background is in Healthcare, and I recently made the transition to Software! <br /><br />
+            
+            My most relevant and most recent role is as a Technical Support Engineer, which I was fortunate to begin while in my last semester of
+            Coder Academy&apos;s Full-Stack Accelerated Web-Development course. <br /> <br />
+
+            My time at Tanda was unfortunately cut short due to a health issue requiring rest and recuperation, and I am now back on the 
+            road to recovery and excited to see what the world of Brisbane software holds!
           </p>
         </div>
 
@@ -60,10 +66,11 @@ const About = () => {
               <VerticalTimelineElement
                 key={experience.company_name}
                 date={experience.date}
+                iconStyle={{ background: experience.iconBg }}
                 contentStyle={{
                   borderBottom: '8px',
                   borderStyle: 'solid',
-                  borderBottomColor: '#44a8b3',
+                  borderBottomColor: experience.iconBg,
                   boxShadow: 'none',
                 }}
               >
