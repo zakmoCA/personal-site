@@ -138,19 +138,5 @@ export const projects = [
       iconUrl: exchange,
       description: "A RESTful API for CRUD operations in a 'Book Exchange' application.",
       link: 'https://github.com/zakmoCA/Book-Exchange-API',
-  },
-  {
-      theme: 'btn-back-red',
-      name: 'codebuddy',
-      iconUrl: underConstruction,
-      description: 'In progress.',
-      link: 'https://github.com/zakmoCA/codebuddy',
-  },
-  {
-      theme: 'btn-back-red',
-      name: 'Custom Interpreter',
-      iconUrl: underConstruction,
-      description: 'In progress.',
-      link: 'https://github.com/zakmoCA/custom-language-and-intepreter',
   }
 ]
