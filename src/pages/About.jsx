@@ -55,8 +55,19 @@ const About = () => {
             My most relevant and most recent role is as a Technical Support Engineer, which I was fortunate to begin while in my last semester of
             Coder Academy&apos;s Full-Stack Accelerated Web-Development course. <br /> <br />
 
-            My time at Tanda was unfortunately cut short due to a health issue requiring rest and recuperation, and I am now back on the 
-            road to recovery and excited to see what the world of Brisbane software holds!
+            My time as a Technical Support Engineer at Tanda involved resolving customers technical issues by investigating and confirming
+            whether the issues were code-base related. If so, I would triage the bugs based on priority,
+            and tackle it if it was high priority and otherwise tackle another high priority ticket on our board.
+
+            Beyond the additional customer facing time, the role involved querying logs, reading and understanding
+            a large and complex codebase, identifying the source of bugs and shipping fixes, across the stack in
+            a Ruby on Rails codebase. <br /><br />
+            
+            The role, and the exceptional team at Tanda provided me invaluable experience and learning as a 
+            budding Developer. Unfortunately my time at Tanda was suddenly and unexpectedly cut short due to illness 
+            and I am now keen to rejoin the workforce after taking some time off, as per the doctors orders, 
+            regarding this bad bout of physical illness. Thankfully I am now fully recovered, and am excited
+            to continue growing in my new career as a Software Developer!
           </p>
         </div>
 
