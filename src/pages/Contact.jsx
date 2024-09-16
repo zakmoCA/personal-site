@@ -27,12 +27,12 @@ const Contact = () => {
     setIsLoading(true)
     setCurrentAnimation('hit')
 
-    const email = import.meta.env.VITE_APP_MY_EMAIL
+    const email = import.meta.env.VITE_MY_EMAIL
 
 
     emailjs.sendForm(
-      import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-      import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+      import.meta.env.VITE_EMAILJS_SERVICE_ID,
+      import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
       formRef.current,
       // {
       //   from_name: form.name,
@@ -41,7 +41,7 @@ const Contact = () => {
       //   to_email: email,
       //   message: form.message
       // },
-      import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      import.meta.env.VITE_EMAILJS_PUBLIC_KEY
     ).then(() => {
         setIsLoading(false)
         showAlert({ show: true, text: 'Your message was sent successfully.', type: 'success' })
